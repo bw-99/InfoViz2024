@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Visualization</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="data.js", type="module"></script>
+
+        <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+    <style>
+        .bar {
+            fill: steelblue;
+        }
+
+        text {
+            fill: black;
+            font: 12px sans-serif;
+        }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            width: 120px;
+            height: 28px;
+            padding: 2px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+            opacity: 0;
+        }
+
+        #candidateList {
+            overflow-y: scroll;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div style="display: flex; margin-top: 0px;">
+        <div id="year" style="display: flex; flex-direction: row; align-items: center; ">
+
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div id="timechart"></div>
+
+                <div id="year_toggle_button" class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active" id="btnGenre" >
+                        <input type="radio" name="options" autocomplete="off" checked> Genre
+                    </label>
+                    <label class="btn btn-secondary" id="btnDirector" >
+                        <input type="radio" name="options" autocomplete="off"> Director
+                    </label>
+                    <label class="btn btn-secondary"  id="btnActor">
+                        <input type="radio" name="options" autocomplete="off"> Actor
+                    </label>
+                </div> 
+
+                <div id="keywords" style="display: flex;  margin-top: 10px; " ></div>
+            </div>
+
+
+            <div style="display: flex;  margin-left: 10px; flex-direction: column; margin-top: 30px; justify-content: center; align-items: center; border: solid 1px orange;">
+                       
+    
+                <div class="mb-3" id="foi2" style="margin-bottom: 0px !important;">
+                    <input type="text" class="form-control" id="FOI" placeholder="search and press enter">
+                </div>
+
+                <div id="candidate" >
+                </div>
+
+                
+            </div>
+
+            
+                
+            </div>
+            
+            <div>
+                <div id="my_dataviz" style="margin-left: 50px;">
+
+                    
+                </div>
+
+                <div style="display: flex; justify-content: space-evenly;">
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <div>
+                            Item Attribute
+                        </div>
+                        <div id="heatmap_toggle_button" class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary active" id="heatmapBtnGenre" >
+                                <input type="radio" name="options" autocomplete="off" checked> Genre
+                            </label>
+                            <label class="btn btn-secondary" id="heatmapBtnDirector" >
+                                <input type="radio" name="options" autocomplete="off"> Director
+                            </label>
+                            <label class="btn btn-secondary"  id="heatmapBtnActor">
+                                <input type="radio" name="options" autocomplete="off"> Actor
+                            </label>
+                        </div> 
+                    </div>
+    
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <div>
+                            User Attribute
+                        </div>
+                        <div id="heatmap_toggle_button" class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary active" id="heatmapBtnOccupation" >
+                                <input type="radio" name="options" autocomplete="off" checked> Occupation
+                            </label>
+                            <label class="btn btn-secondary" id="heatmapBtnAge" >
+                                <input type="radio" name="options" autocomplete="off"> Age
+                            </label>
+                            <label class="btn btn-secondary"  id="heatmapBtnGender">
+                                <input type="radio" name="options" autocomplete="off"> Gender
+                            </label>
+                        </div> 
+                    </div>
+                </div>
+
+                
+                
+            </div>
+            
+
+        </div>
+        <hr/>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div id="barchart">
+            </div>
+
+            <div id="barchart_toggle_button" class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active" id="barChartBtnGenre" >
+                    <input type="radio" name="options" autocomplete="off" checked> Genre
+                </label>
+                <label class="btn btn-secondary" id="barChartBtnDirector" >
+                    <input type="radio" name="options" autocomplete="off"> Director
+                </label>
+                <label class="btn btn-secondary"  id="barChartBtnActor">
+                    <input type="radio" name="options" autocomplete="off"> Actor
+                </label>
+            </div> 
+        </div>
+
+
+
+    </div>
+    <script>
+    function closeButton() {
+        var button = document.getElementById('myButton');
+        button.style.display = 'none'; // Hides the button
+    }
+    </script>
+
+    <script src="script.js", type="module"></script>
+    <script src="heatmap.js", type="module"></script>
+    <script src="bar.js", type="module"></script>
+    <script>
+// set the dimensions and margins of the graph
+        
+    </script>
+    <!-- <script src="top.js", type="module"></script> -->
+</body>
+</html>

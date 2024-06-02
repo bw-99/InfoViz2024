@@ -1,0 +1,106 @@
+variable,group,value
+other,Keiju Kobayashi,4.857142857142857
+academic/educator,Keiju Kobayashi,4.4
+artist,Keiju Kobayashi,4.333333333333333
+clerical/admin,Keiju Kobayashi,5.0
+college/grad student,Keiju Kobayashi,4.857142857142857
+customer service,Keiju Kobayashi,5.0
+doctor/health care,Keiju Kobayashi,4.0
+executive/managerial,Keiju Kobayashi,4.5
+farmer,Keiju Kobayashi,4.0
+homemaker,Keiju Kobayashi,1.0
+K-12 student,Keiju Kobayashi,5.0
+lawyer,Keiju Kobayashi,4.833333333333333
+programmer,Keiju Kobayashi,4.5
+retired,Keiju Kobayashi,5.0
+sales/marketing,Keiju Kobayashi,5.0
+scientist,Keiju Kobayashi,4.5
+self-employed,Keiju Kobayashi,4.5
+technician/engineer,Keiju Kobayashi,5.0
+tradesman/craftsman,Keiju Kobayashi,1.0
+unemployed,Keiju Kobayashi,5.0
+writer,Keiju Kobayashi,4.0
+other,Yukiko Shimazaki,4.485714285714286
+academic/educator,Yukiko Shimazaki,4.64935064935065
+artist,Yukiko Shimazaki,4.611111111111111
+clerical/admin,Yukiko Shimazaki,4.571428571428571
+college/grad student,Yukiko Shimazaki,4.435483870967742
+customer service,Yukiko Shimazaki,4.642857142857143
+doctor/health care,Yukiko Shimazaki,4.52
+executive/managerial,Yukiko Shimazaki,4.542857142857143
+farmer,Yukiko Shimazaki,5.0
+homemaker,Yukiko Shimazaki,3.8333333333333335
+K-12 student,Yukiko Shimazaki,5.0
+lawyer,Yukiko Shimazaki,4.666666666666667
+programmer,Yukiko Shimazaki,4.7631578947368425
+retired,Yukiko Shimazaki,4.642857142857143
+sales/marketing,Yukiko Shimazaki,4.185185185185185
+scientist,Yukiko Shimazaki,4.615384615384615
+self-employed,Yukiko Shimazaki,4.666666666666667
+technician/engineer,Yukiko Shimazaki,4.552631578947368
+tradesman/craftsman,Yukiko Shimazaki,5.0
+unemployed,Yukiko Shimazaki,4.666666666666667
+writer,Yukiko Shimazaki,4.5227272727272725
+other,Keiko Tsushima,4.485714285714286
+academic/educator,Keiko Tsushima,4.64935064935065
+artist,Keiko Tsushima,4.611111111111111
+clerical/admin,Keiko Tsushima,4.571428571428571
+college/grad student,Keiko Tsushima,4.435483870967742
+customer service,Keiko Tsushima,4.642857142857143
+doctor/health care,Keiko Tsushima,4.52
+executive/managerial,Keiko Tsushima,4.542857142857143
+farmer,Keiko Tsushima,5.0
+homemaker,Keiko Tsushima,3.8333333333333335
+K-12 student,Keiko Tsushima,5.0
+lawyer,Keiko Tsushima,4.666666666666667
+programmer,Keiko Tsushima,4.7631578947368425
+retired,Keiko Tsushima,4.642857142857143
+sales/marketing,Keiko Tsushima,4.185185185185185
+scientist,Keiko Tsushima,4.615384615384615
+self-employed,Keiko Tsushima,4.666666666666667
+technician/engineer,Keiko Tsushima,4.552631578947368
+tradesman/craftsman,Keiko Tsushima,5.0
+unemployed,Keiko Tsushima,4.666666666666667
+writer,Keiko Tsushima,4.5227272727272725
+other,Richard S. Castellano,4.48015873015873
+academic/educator,Richard S. Castellano,4.423469387755102
+artist,Richard S. Castellano,4.5
+clerical/admin,Richard S. Castellano,4.612903225806452
+college/grad student,Richard S. Castellano,4.556363636363637
+customer service,Richard S. Castellano,4.595238095238095
+doctor/health care,Richard S. Castellano,4.6022727272727275
+executive/managerial,Richard S. Castellano,4.607913669064748
+farmer,Richard S. Castellano,4.5
+homemaker,Richard S. Castellano,4.0
+K-12 student,Richard S. Castellano,4.575
+lawyer,Richard S. Castellano,4.6461538461538465
+programmer,Richard S. Castellano,4.413533834586466
+retired,Richard S. Castellano,4.45
+sales/marketing,Richard S. Castellano,4.581818181818182
+scientist,Richard S. Castellano,4.53030303030303
+self-employed,Richard S. Castellano,4.612244897959184
+technician/engineer,Richard S. Castellano,4.4186046511627906
+tradesman/craftsman,Richard S. Castellano,4.535714285714286
+unemployed,Richard S. Castellano,4.5
+writer,Richard S. Castellano,4.629310344827586
+other,Anne Reid,4.525
+academic/educator,Anne Reid,4.518518518518518
+artist,Anne Reid,4.722222222222222
+clerical/admin,Anne Reid,4.428571428571429
+college/grad student,Anne Reid,4.595505617977528
+customer service,Anne Reid,4.222222222222222
+doctor/health care,Anne Reid,4.583333333333333
+executive/managerial,Anne Reid,4.375
+farmer,Anne Reid,5.0
+homemaker,Anne Reid,4.75
+K-12 student,Anne Reid,4.333333333333333
+lawyer,Anne Reid,4.571428571428571
+programmer,Anne Reid,4.578125
+retired,Anne Reid,5.0
+sales/marketing,Anne Reid,4.739130434782608
+scientist,Anne Reid,4.52
+self-employed,Anne Reid,4.375
+technician/engineer,Anne Reid,4.571428571428571
+tradesman/craftsman,Anne Reid,5.0
+unemployed,Anne Reid,4.625
+writer,Anne Reid,4.25

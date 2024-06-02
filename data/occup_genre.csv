@@ -1,0 +1,106 @@
+variable,group,value
+other,Short,4.359133126934984
+academic/educator,Short,4.337606837606837
+artist,Short,4.443181818181818
+clerical/admin,Short,4.32
+college/grad student,Short,4.346704871060172
+customer service,Short,4.153846153846154
+doctor/health care,Short,4.2439024390243905
+executive/managerial,Short,4.424107142857143
+farmer,Short,4.75
+homemaker,Short,4.694444444444445
+K-12 student,Short,4.237623762376238
+lawyer,Short,4.192982456140351
+programmer,Short,4.392857142857143
+retired,Short,4.3076923076923075
+sales/marketing,Short,4.490384615384615
+scientist,Short,4.431578947368421
+self-employed,Short,4.36697247706422
+technician/engineer,Short,4.4296875
+tradesman/craftsman,Short,4.7368421052631575
+unemployed,Short,4.314285714285714
+writer,Short,4.268421052631579
+other,Film-Noir,4.250965250965251
+academic/educator,Film-Noir,4.2313829787234045
+artist,Film-Noir,4.223404255319149
+clerical/admin,Film-Noir,4.264084507042254
+college/grad student,Film-Noir,4.125541125541125
+customer service,Film-Noir,4.1521739130434785
+doctor/health care,Film-Noir,3.9788135593220337
+executive/managerial,Film-Noir,4.142602495543672
+farmer,Film-Noir,3.8333333333333335
+homemaker,Film-Noir,4.2
+K-12 student,Film-Noir,4.2898550724637685
+lawyer,Film-Noir,4.243654822335025
+programmer,Film-Noir,4.218649517684887
+retired,Film-Noir,4.285714285714286
+sales/marketing,Film-Noir,4.3408071748878925
+scientist,Film-Noir,4.297101449275362
+self-employed,Film-Noir,4.23826714801444
+technician/engineer,Film-Noir,4.25
+tradesman/craftsman,Film-Noir,4.078125
+unemployed,Film-Noir,4.311827956989247
+writer,Film-Noir,4.196691176470588
+other,Documentary,3.9485420240137223
+academic/educator,Documentary,4.078651685393258
+artist,Documentary,4.061371841155235
+clerical/admin,Documentary,3.911764705882353
+college/grad student,Documentary,4.045454545454546
+customer service,Documentary,3.9482758620689653
+doctor/health care,Documentary,4.011428571428572
+executive/managerial,Documentary,4.0161725067385445
+farmer,Documentary,3.7142857142857144
+homemaker,Documentary,3.9565217391304346
+K-12 student,Documentary,3.76271186440678
+lawyer,Documentary,4.112903225806452
+programmer,Documentary,3.880952380952381
+retired,Documentary,4.03030303030303
+sales/marketing,Documentary,3.9431818181818183
+scientist,Documentary,4.032608695652174
+self-employed,Documentary,4.040358744394619
+technician/engineer,Documentary,4.056872037914692
+tradesman/craftsman,Documentary,3.8125
+unemployed,Documentary,3.888888888888889
+writer,Documentary,4.033519553072626
+other,History,3.9541577825159915
+academic/educator,History,3.9793747985820174
+artist,History,3.9237288135593222
+clerical/admin,History,3.9734806629834254
+college/grad student,History,3.934157484547165
+customer service,History,3.908548707753479
+doctor/health care,History,4.0809338521400775
+executive/managerial,History,4.004365541327124
+farmer,History,3.792207792207792
+homemaker,History,4.07514450867052
+K-12 student,History,4.019933554817276
+lawyer,History,3.9855699855699855
+programmer,History,3.99822799763733
+retired,History,4.12518409425626
+sales/marketing,History,4.035455861070912
+scientist,History,3.9846547314578005
+self-employed,History,4.03920220082531
+technician/engineer,History,4.041904761904762
+tradesman/craftsman,History,4.029315960912052
+unemployed,History,3.796143250688705
+writer,History,3.848663101604278
+other,War,3.931656804733728
+academic/educator,War,3.9379751900760303
+artist,War,3.885579937304075
+clerical/admin,War,3.9656398104265405
+college/grad student,War,3.87284861257464
+customer service,War,3.8514056224899598
+doctor/health care,War,4.000899280575539
+executive/managerial,War,3.933992439662693
+farmer,War,3.727272727272727
+homemaker,War,3.7869415807560136
+K-12 student,War,3.905191873589165
+lawyer,War,4.014925373134329
+programmer,War,3.985897435897436
+retired,War,4.077155824508321
+sales/marketing,War,3.9838709677419355
+scientist,War,3.9943741209563997
+self-employed,War,3.9546044098573283
+technician/engineer,War,3.9816922315685304
+tradesman/craftsman,War,3.9197707736389686
+unemployed,War,3.7531645569620253
+writer,War,3.874418604651163

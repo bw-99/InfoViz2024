@@ -1,0 +1,106 @@
+variable,group,value
+other,Akira Kurosawa,4.422459893048129
+academic/educator,Akira Kurosawa,4.485714285714286
+artist,Akira Kurosawa,4.474747474747475
+clerical/admin,Akira Kurosawa,4.5
+college/grad student,Akira Kurosawa,4.328859060402684
+customer service,Akira Kurosawa,4.458333333333333
+doctor/health care,Akira Kurosawa,4.450980392156863
+executive/managerial,Akira Kurosawa,4.312101910828026
+farmer,Akira Kurosawa,4.285714285714286
+homemaker,Akira Kurosawa,4.266666666666667
+K-12 student,Akira Kurosawa,4.578947368421052
+lawyer,Akira Kurosawa,4.571428571428571
+programmer,Akira Kurosawa,4.568807339449541
+retired,Akira Kurosawa,4.533333333333333
+sales/marketing,Akira Kurosawa,4.245614035087719
+scientist,Akira Kurosawa,4.5
+self-employed,Akira Kurosawa,4.4603174603174605
+technician/engineer,Akira Kurosawa,4.5
+tradesman/craftsman,Akira Kurosawa,4.555555555555555
+unemployed,Akira Kurosawa,4.4
+writer,Akira Kurosawa,4.370967741935484
+other,Frank Darabont,4.402469135802469
+academic/educator,Frank Darabont,4.360759493670886
+artist,Frank Darabont,4.3624161073825505
+clerical/admin,Frank Darabont,4.424242424242424
+college/grad student,Frank Darabont,4.472061657032755
+customer service,Frank Darabont,4.314285714285714
+doctor/health care,Frank Darabont,4.5793103448275865
+executive/managerial,Frank Darabont,4.448863636363637
+farmer,Frank Darabont,4.6
+homemaker,Frank Darabont,4.4
+K-12 student,Frank Darabont,4.422535211267606
+lawyer,Frank Darabont,4.291139240506329
+programmer,Frank Darabont,4.475247524752476
+retired,Frank Darabont,4.444444444444445
+sales/marketing,Frank Darabont,4.5195530726256985
+scientist,Frank Darabont,4.445783132530121
+self-employed,Frank Darabont,4.325301204819277
+technician/engineer,Frank Darabont,4.458498023715415
+tradesman/craftsman,Frank Darabont,4.444444444444445
+unemployed,Frank Darabont,4.35
+writer,Frank Darabont,4.0813953488372094
+other,M. Night Shyamalan,4.3321799307958475
+academic/educator,M. Night Shyamalan,4.425
+artist,M. Night Shyamalan,4.313725490196078
+clerical/admin,M. Night Shyamalan,4.592105263157895
+college/grad student,M. Night Shyamalan,4.342245989304812
+customer service,M. Night Shyamalan,4.679245283018868
+doctor/health care,M. Night Shyamalan,4.587628865979381
+executive/managerial,M. Night Shyamalan,4.37984496124031
+farmer,M. Night Shyamalan,4.5
+homemaker,M. Night Shyamalan,4.533333333333333
+K-12 student,M. Night Shyamalan,4.36
+lawyer,M. Night Shyamalan,4.530612244897959
+programmer,M. Night Shyamalan,4.526946107784431
+retired,M. Night Shyamalan,4.344827586206897
+sales/marketing,M. Night Shyamalan,4.492063492063492
+scientist,M. Night Shyamalan,4.327868852459017
+self-employed,M. Night Shyamalan,4.362745098039215
+technician/engineer,M. Night Shyamalan,4.4278606965174125
+tradesman/craftsman,M. Night Shyamalan,4.4
+unemployed,M. Night Shyamalan,3.466666666666667
+writer,M. Night Shyamalan,4.165354330708661
+other,Clyde Bruckman,4.25
+academic/educator,Clyde Bruckman,4.434782608695652
+artist,Clyde Bruckman,4.384615384615385
+clerical/admin,Clyde Bruckman,4.4
+college/grad student,Clyde Bruckman,4.0625
+customer service,Clyde Bruckman,5.0
+doctor/health care,Clyde Bruckman,4.142857142857143
+executive/managerial,Clyde Bruckman,4.380952380952381
+farmer,Clyde Bruckman,4.0
+homemaker,Clyde Bruckman,1.0
+K-12 student,Clyde Bruckman,4.5
+lawyer,Clyde Bruckman,3.5
+programmer,Clyde Bruckman,4.666666666666667
+retired,Clyde Bruckman,4.2
+sales/marketing,Clyde Bruckman,5.0
+scientist,Clyde Bruckman,3.8
+self-employed,Clyde Bruckman,4.461538461538462
+technician/engineer,Clyde Bruckman,4.666666666666667
+tradesman/craftsman,Clyde Bruckman,4.4
+unemployed,Clyde Bruckman,5.0
+writer,Clyde Bruckman,4.518518518518518
+other,Satyajit Ray,4.65
+academic/educator,Satyajit Ray,4.423076923076923
+artist,Satyajit Ray,4.5
+clerical/admin,Satyajit Ray,4.666666666666667
+college/grad student,Satyajit Ray,4.1
+customer service,Satyajit Ray,4.5
+doctor/health care,Satyajit Ray,2.3333333333333335
+executive/managerial,Satyajit Ray,4.375
+farmer,Satyajit Ray,1.0
+homemaker,Satyajit Ray,1.0
+K-12 student,Satyajit Ray,1.0
+lawyer,Satyajit Ray,4.0
+programmer,Satyajit Ray,4.666666666666667
+retired,Satyajit Ray,1.0
+sales/marketing,Satyajit Ray,5.0
+scientist,Satyajit Ray,5.0
+self-employed,Satyajit Ray,4.833333333333333
+technician/engineer,Satyajit Ray,1.0
+tradesman/craftsman,Satyajit Ray,1.0
+unemployed,Satyajit Ray,3.0
+writer,Satyajit Ray,4.181818181818182
