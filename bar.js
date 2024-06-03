@@ -23,7 +23,8 @@ function drawBarChart() {
     let maxXval = data_dict[curTarget].maxVal;
     var margin = {top: 40, right: 30, bottom: 40, left: 90},
     width = screen.availWidth - 30 - margin.left - margin.right,
-    height =screen.availHeight - 780  - margin.top - margin.bottom;
+    // height =screen.availHeight - 780  - margin.top - margin.bottom;
+    height = 180;
 
     // append the svg object to the body of the page
 

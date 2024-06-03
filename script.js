@@ -67,7 +67,7 @@ function drawChart(currentCategory) {
 
   // 차트 크기 및 마진 설정
   const margin = { top: 40, right: 40, bottom: 40, left: 70 },
-  width = 800 - margin.left - margin.right,
+  width = 600 - margin.left - margin.right,
   height = 500 - margin.top - margin.bottom;
 
   d3.select("#timechart").selectAll("*").remove();  // 기존 SVG 내용 삭제
